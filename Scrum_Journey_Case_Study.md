@@ -1,0 +1,21 @@
+# From the Guide to the Ground: How Scrum Theory Met Real Delivery
+
+**Where it started**
+My first certification, CAPM, gave me the traditional project management backbone — initiation, planning, executing, monitoring and controlling, closeout — along with a light overview of agile's version of the same: feasibility, release planning, iteration, closeout. It gave me the map, but not the depth. I could name the phases without really understanding how teams moved through them in practice. That gap is what sent me to Scrum.
+
+**Learning the framework**
+I expected Scrum to hand me a similar set of controls to traditional monitoring and controlling — just an agile version of the same idea. What I found instead was empirical process control, and understanding how that actually plays out in practice took real work: not tracking against a fixed plan, but continuously making things visible, checking them, and adjusting. That's when it clicked that Scrum isn't a step-by-step methodology — it's a framework built around a different way of thinking about progress altogether.
+
+I didn't stop at the Scrum Guide. Reading the Four Disciplines of Execution changed how I saw my own role: a project manager isn't controlling how people do their work, they're tracking leading indicators of progress — the actions that predict success — rather than just the lagging ones that only confirm it after the fact. Alongside that, I've been intentional about building a network of people in the delivery space to learn from directly, because hands-on judgment is something no framework fully teaches on its own. My design thinking foundation from UJ rounded it out, giving me the creative, problem-solving instinct to apply the framework rather than just follow it.
+
+**Putting it to the test**
+When I sat the PSM I exam, I found out quickly it isn't a recall test — it's built around scenario-based questions that check whether you actually understand Scrum's principles well enough to apply judgment, not just memorize definitions. I prepared by going back to the source, the 2020 Scrum Guide, working through a reading-based course, and running through as many official practice exams as I could — treating each one as a way to find the gaps in my understanding before the real thing did.
+
+What caught me off guard wasn't a concept, it was language. The exam holds you to the Scrum Guide's terminology precisely; close-but-not-quite isn't good enough. It taught me that in Scrum, words like "Increment," "Done," and "Sprint Goal" carry exact meaning, and blurring them is exactly the kind of shortcut the exam is designed to catch.
+
+I passed with 80%. That score told me something more specific than "I know Scrum" — I'm competent at the coaching and facilitation side of the framework, but there's real depth still to build in fully understanding what makes a Product and an Increment genuinely valuable — the product-thinking layer underneath the process.
+
+**What it left me with**
+Passing PSM I was never really the finish line — it was proof that I understood the framework well enough to be tested on it, and honest confirmation of exactly where I still had room to grow. I walked away knowing I could hold my own on the coaching and facilitation side of Scrum, while still having real depth to build around what actually makes a Product and an Increment valuable in the first place.
+
+That's the part I keep coming back to: Scrum was never meant to be recited. It's meant to be applied, questioned, and tested against reality — and that's exactly the kind of Scrum Master I set out to become.

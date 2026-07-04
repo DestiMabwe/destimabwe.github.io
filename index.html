@@ -1,12 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Destiny Personal Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Destiny Mabwe — Scrum Master & Technical PM</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@400;500&family=DM+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to Destiny's Personal Portfolio</h1>
-    <p>This is the home page of Destiny's portfolio website.</p>
+
+  <!-- NAVIGATION -->
+  <nav class="nav" id="nav">
+    <a href="#hero" class="nav-logo">destiny mabwe</a>
+    <ul class="nav-links">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="resources/Destiny-SM-CV.pdf" target="_blank" rel="noopener">CV ↗</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="hero-inner container">
+      <span class="hero-eyebrow">[ scrum master ]</span>
+      <h1 class="hero-name">
+        Destiny<br>Mabwe.
+      </h1>
+      <span class="hero-modifier">[ and builder of things ]</span>
+      <p class="hero-tagline">I make teams move.</p>
+      <div class="hero-ctas">
+        <a href="#work" class="btn-primary">See my work</a>
+        <a href="resources/Destiny-SM-CV.pdf" target="_blank" rel="noopener" class="btn-ghost">Download CV ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section id="work" class="work">
+    <div class="container">
+      <p class="section-eyebrow">Selected Work</p>
+      <h2 class="section-heading">What I've shipped.</h2>
+
+      <div class="work-grid">
+
+        <!-- Card 1: Siyaya Mobility -->
+        <article class="project-card project-card--wide">
+          <div class="card-image-wrap card-image-wrap--banner">
+            <img src="resources/siyaya.png" alt="Siyaya Mobility Systems" class="card-img">
+            <div class="card-overlay">
+              <span class="overlay-tag">Agile Delivery · Backlog</span>
+              <h3 class="overlay-title">Siyaya Mobility Systems</h3>
+              <p class="overlay-desc">Product backlog & roadmap for a mobility platform.</p>
+              <a href="siyaya-case-study.html" class="overlay-link">[ read case study → ]</a>
+            </div>
+          </div>
+          <footer class="card-footer">
+            <span class="card-name">Siyaya Mobility Systems</span>
+            <span class="card-type">Agile Delivery</span>
+          </footer>
+        </article>
+
+        <!-- Card 2: Purpose Camp (wide) -->
+        <article class="project-card project-card--wide">
+          <div class="card-image-wrap card-image-wrap--wide">
+            <img src="resources/purpose-camp.png" alt="Purpose Camp Oct 2026 Work Breakdown Structure" class="card-img">
+            <div class="card-overlay">
+              <span class="overlay-tag">Volunteer Work · PM Artifact · Planning</span>
+              <h3 class="overlay-title">Purpose Camp Oct 2026</h3>
+              <p class="overlay-desc">Full PM workbook: Gantt, WBS, Risk Log.</p>
+            </div>
+          </div>
+          <footer class="card-footer">
+            <span class="card-name">Purpose Camp Oct 2026</span>
+            <span class="card-type">PM Artifact</span>
+          </footer>
+        </article>
+
+        <!-- Card 3: Kindness Currency -->
+        <article class="project-card project-card--phone">
+          <div class="card-image-wrap card-image-wrap--phone">
+            <div class="card-carousel" data-carousel>
+              <img src="resources/kc-1.png" alt="Kindness Currency landing screen — 'Give a promise, not a thing' with sample promise coupons" class="carousel-slide is-active">
+              <img src="resources/kc-2.png" alt="Kindness Currency template picker — step 1 of 3" class="carousel-slide">
+              <img src="resources/kc-3.png" alt="Kindness Currency redemption screen — recipient view of gifted coupons" class="carousel-slide">
+            </div>
+            <button type="button" class="carousel-arrow carousel-arrow--prev" aria-label="Previous screenshot">‹</button>
+            <button type="button" class="carousel-arrow carousel-arrow--next" aria-label="Next screenshot">›</button>
+            <div class="carousel-dots" aria-hidden="true">
+              <span class="carousel-dot is-active"></span>
+              <span class="carousel-dot"></span>
+              <span class="carousel-dot"></span>
+            </div>
+          </div>
+          <div class="card-overlay card-overlay--footer">
+            <span class="overlay-tag">Dev Project · Next.js</span>
+            <h3 class="overlay-title">Kindness Currency</h3>
+            <p class="overlay-desc">Next.js web app with full design system — in progress.</p>
+            <a href="https://github.com/DestiMabwe" class="overlay-link" target="_blank" rel="noopener">[ view on GitHub → ]</a>
+          </div>
+          <footer class="card-footer">
+            <span class="card-name">Kindness Currency</span>
+            <span class="card-type">Dev Project</span>
+          </footer>
+        </article>
+
+        <!-- Card 4: PSM I Certification -->
+        <article class="project-card">
+          <div class="card-image-wrap">
+            <img src="resources/professional-scrum-master-i-psm-i.png" alt="Scrum.org PSM I" class="card-img">
+            <div class="card-overlay">
+              <span class="overlay-tag">Case Study · Certification</span>
+              <h3 class="overlay-title">Scrum.org PSM I</h3>
+              <p class="overlay-desc">Certification case study and exam write-up.</p>
+              <a href="psm-i-case-study.html" class="overlay-link">[ view case study → ]</a>
+            </div>
+          </div>
+          <footer class="card-footer">
+            <span class="card-name">Scrum.org PSM I</span>
+            <span class="card-type">Case Study</span>
+          </footer>
+        </article>
+
+        <!-- Card 5: Sprint Facilitation — commented out until further notice
+        <article class="project-card">
+          <div class="card-image-wrap">
+            <img src="https://placehold.co/600x750/EDEAE3/8A8A82?text=Sprint+Facilitation" alt="Sprint Facilitation" class="card-img">
+            <div class="card-overlay">
+              <span class="overlay-tag">Scrum Master · Facilitation</span>
+              <h3 class="overlay-title">Sprint Facilitation</h3>
+              <p class="overlay-desc">Sprint retrospective and velocity artifacts.</p>
+              <a href="#" class="overlay-link">[ view artifacts → ]</a>
+            </div>
+          </div>
+          <footer class="card-footer">
+            <span class="card-name">Sprint Facilitation</span>
+            <span class="card-type">Scrum Master</span>
+          </footer>
+        </article>
+        -->
+
+        <!-- Card 6: This Portfolio — commented out until further notice
+        <article class="project-card">
+          <div class="card-image-wrap">
+            <img src="https://placehold.co/600x750/EDEAE3/8A8A82?text=This+Portfolio" alt="Personal Portfolio" class="card-img">
+            <div class="card-overlay">
+              <span class="overlay-tag">Side Project · HTML &amp; CSS</span>
+              <h3 class="overlay-title">Personal Portfolio</h3>
+              <p class="overlay-desc">This site — built with a design system and Playwright tests.</p>
+              <a href="https://github.com/DestiMabwe" class="overlay-link" target="_blank" rel="noopener">[ view on GitHub → ]</a>
+            </div>
+          </div>
+          <footer class="card-footer">
+            <span class="card-name">Personal Portfolio</span>
+            <span class="card-type">Side Project</span>
+          </footer>
+        </article>
+        -->
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <div class="container about-inner">
+      <div class="about-text">
+        <p class="section-eyebrow">About</p>
+        <h2 class="section-heading">The person behind the sprints.</h2>
+        <p class="about-bio">
+          I'm Destiny — a Scrum Master and aspiring Technical PM who genuinely loves both sides of the tech world.
+          I get excited about shipping clean code just as much as I do about a well-run sprint. My BCom in Information
+          Systems gave me the foundation; my PSM I and CAPM gave me the framework; and AI tools have become the force
+          multiplier that lets me do the work of an entire team.
+        </p>
+        <p class="about-bio">
+          I believe the best people in tech are the ones who can talk to engineers and stakeholders in the same breath —
+          and build something in the gaps between meetings. That's the kind of person I'm becoming.
+        </p>
+        <ul class="certifications">
+          <li><span class="cert-title">PSM I</span><span class="cert-org">Scrum.org</span></li>
+          <li><span class="cert-title">CAPM</span><span class="cert-org">PMI</span></li>
+          <li><span class="cert-title">BCom Information Systems</span><span class="cert-org">UJ · 2025</span></li>
+        </ul>
+      </div>
+      <div class="about-photo">
+        <img src="resources/destiny.jpeg" alt="Destiny Mabwe" class="portrait">
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <p class="section-eyebrow">Skills</p>
+      <h2 class="section-heading">What I bring to the table.</h2>
+      <div class="skills-grid">
+        <div class="skills-col">
+          <p class="skills-label">Agile / Scrum</p>
+          <ul class="skills-list">
+            <li>Sprint Planning & Facilitation</li>
+            <li>Backlog Refinement</li>
+            <li>Retrospectives</li>
+            <li>Velocity Tracking</li>
+            <li>Stakeholder Communication</li>
+          </ul>
+        </div>
+        <div class="skills-col">
+          <p class="skills-label">Tools & Tech</p>
+          <ul class="skills-list">
+            <li>Jira / Confluence</li>
+            <li>Figma</li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Next.js / React</li>
+            <li>AI Tools (Claude, ChatGPT)</li>
+          </ul>
+        </div>
+        <div class="skills-col">
+          <p class="skills-label">PM Artifacts</p>
+          <ul class="skills-list">
+            <li>Product Roadmaps</li>
+            <li>WBS & Gantt Charts</li>
+            <li>Risk Logs</li>
+            <li>User Story Mapping</li>
+            <li>Definition of Done</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="container contact-inner">
+      <h2 class="contact-heading">
+        Let's build<br>
+        <em>something that <span class="accent">ships.</span></em>
+      </h2>
+      <a href="mailto:mabwedestiny@gmail.com" class="contact-email">mabwedestiny@gmail.com</a>
+      <div class="contact-socials">
+        <a href="https://www.linkedin.com/in/destiny-mabwe" target="_blank" rel="noopener" class="social-link">LinkedIn ↗</a>
+        <a href="https://github.com/DestiMabwe" target="_blank" rel="noopener" class="social-link">GitHub ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-name">Destiny Mabwe</span>
+      <span class="footer-copy">© 2026</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
